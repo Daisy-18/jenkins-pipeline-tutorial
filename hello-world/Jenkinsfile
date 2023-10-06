@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
+                echo 'Daisy'
                 echo 'Run the static analysis to the code' 
             }
         }
@@ -13,6 +14,7 @@ pipeline {
         }
         stage('Security Check') {
             steps {
+                echo 'teita 24'
                 echo 'Run the security check against the application' 
             }
         }
